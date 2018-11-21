@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>jQuery Functions Exemple</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="jQuery_functions.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jQuery_functions.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+
+      <div id="header">
+          <h3>My jQuery basic assignment!</h3>
+          <a id="hide" href="#"><span><< go back</span></a>
+          <a id="show" href="#"><span>next >></span></a>
+          <div id="nav">
+              <ul>
+                  <li><a href="#"><span>Home</span></a></li>
+                  <li><a href="#"><span>About</span></a></li>
+                  <li><a href="#"><span>Menu</span></a></li>
+                  <li><a href="#"><span>Contact</span></a></li>
+              </ul>
+          </div>
+          <img src="die.jpg" alt="dice">
+      </div>
+
+      <div id="content">
+        <div class="box">
+            <button>AddClass</button>
+            <div class="text">
+                <h1>AddClass</h1>
+                <p>Click the button to add class 'red' to this paragraph</p>
+            </div>
+        </div>
+        <div class="box"">
+            <button id="slide">SlideToggle</button>
+            <div class="text">
+                <h1>SlideToggle</h1>
+                <p>Click the button to slidetoogle a hidden image</p>
+                <img id="hero" src="die.jpg" alt="dice">
+            </div>
+        </div>
+        <div class="box" id="last">
+            <button id="append">Append</button>
+            <div class="text">
+                <h1>Append</h1>
+                <p>Click the button to append a new paragraph</p>
+            </div>
+        </div>
+      </div>
+
+      <div id="footer">
+          <a href="#" class="hovertxt"><span>Hover me!</span></a>
+      </div>
+    </div>
+  </body>
+</html>
